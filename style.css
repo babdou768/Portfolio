@@ -1,0 +1,50 @@
+
+
+header, main, footer {
+box-sizing: border-box;
+padding: 30px;
+text-align: center;
+margin: auto;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background: #47878d;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  height: 150px;
+}
+
+main {
+  background: #b8e3e7;
+}
+
+footer {
+  background: #47878d;
+  height: 100px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+hr {
+  border: 1px solid  black;
+}
+
+h4 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+a:link, a:active {
+  color:blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
