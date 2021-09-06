@@ -1,16 +1,16 @@
 
 
-header, main, footer {
+header, main, footer { /*attribute shared by all elements*/
 box-sizing: border-box;
 padding: 30px;
 text-align: center;
 margin: auto;
 font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 header {
   background: #47878d;
-  color: rgb(0, 0, 0);
   font-size: 30px;
   height: 150px;
 }
@@ -24,11 +24,9 @@ footer {
   height: 100px;
 }
 
-.left-text {
-  text-align: left;
-}
 
-hr {
+
+hr {/*thin lined seperator*/
   border: 1px solid  black;
 }
 
@@ -49,4 +47,9 @@ ol li { /* display the ordered list horizontally*/
   display: inline;
   width: 696px;
   padding: 20px;
+}
+
+ul { /*added in to allow list to fit in center*/
+    width: 50%;
+    margin: auto;
 }
