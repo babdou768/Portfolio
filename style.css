@@ -32,19 +32,21 @@ hr {
   border: 1px solid  black;
 }
 
-h4 {
+h4 { /*made larger to take up more space*/
   font-size: 25px;
   margin: 10px;
 }
 
-a:link, a:active {
+a:link, a:active, a:visited {/* color for contact links*/
   color:blue;
 }
 
-a:visited {
-  color: red;
+a:hover {/*color when hovering over*/
+  color: green;
 }
 
-a:hover {
-  color: green;
+ol li { /* display the ordered list horizontally*/
+  display: inline;
+  width: 696px;
+  padding: 20px;
 }
