@@ -49,7 +49,6 @@ ol li { /* display the ordered list horizontally*/
   padding: 20px;
 }
 
-ul { /*added in to allow list to fit in center*/
-    width: 50%;
-    margin: auto;
+ul {/*added to make list look better centered*/
+    list-style-position: inside;
 }
